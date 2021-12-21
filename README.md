@@ -1,5 +1,6 @@
 # project-ifamily
-## 아이패밀리 프로젝트 - 수집 데이터에서 spam성 noise data를 걸러내는 기술 개발
+## 아이패밀리 프로젝트 
+### 수집 데이터에서 spam성 noise data를 필터링하기 위한 실험
 
 ### 1. 개요
 #### DB에 수집한 글로우픽, 유튜브, 네이버 블로그, 파우더룸의 댓글 데이터 중 글로우픽 리뷰 데이터는 모두 화장품과 관련된 댓글이지만, 타 플랫폼의 댓글에는 noise가 상당수 발견되었다
@@ -23,5 +24,11 @@
 
 
 
-### 3. 활용 모델 : Oneclass SVM
-- One Class SVM이란 주어진 데이터를 잘 설명할 수 있는 최적의 support vector를 구하고 이 영역 밖의 데이터들은 outlier로 간주하는 방식이다
+### 3) 활용 모델 : Oneclass SVM
+- One Class SVM이란 주어진 데이터를 잘 설명할 수 있는 최적의 support vector를 구하고 이 영역 밖의 데이터들은 outlier로 간주하는 방식
+- 파라미터는 grid search 활용해서 설정
+
+![image](https://user-images.githubusercontent.com/60679596/146883204-31a67838-1424-4599-b852-064ac088a1db.png)
+
+
+그림 출처 : https://www.researchgate.net/figure/One-class-SVM-boundary-and-outlier-detection_fig5_281455041
