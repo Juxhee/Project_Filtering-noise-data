@@ -25,7 +25,7 @@
 
 
 
-### 3) 활용 모델 : Oneclass SVM
+### 3. 활용 모델 : Oneclass SVM
 - One Class SVM이란 주어진 데이터를 잘 설명할 수 있는 최적의 support vector를 구하고 이 영역 밖의 데이터들은 outlier로 간주하는 방식
 - 파라미터는 grid search 활용해서 설정
 
