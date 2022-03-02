@@ -1,5 +1,5 @@
-## Ifamily Project 1 
-### spam성 noise data 필터링 실험
+
+## Ifamily Project 1 spam성 noise data 필터링 실험
 
 ### 1. 개요
 -  DB에 수집한 글로우픽, 유튜브, 네이버 블로그, 파우더룸의 댓글 데이터 중 글로우픽 리뷰 데이터는 모두 화장품과 관련된 댓글이지만, 타 플랫폼의 댓글에는 noise가 상당수 발견됨
