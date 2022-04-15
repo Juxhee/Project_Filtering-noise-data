@@ -5,13 +5,14 @@
 -  글로우픽의 경우 화장품 리뷰를 크롤링한 것이므로 모두 화장품과 관련된 댓글이지만, 유튜브, 네이브 블로그, 인스타그램 등 SNS 데이터의 경우 noise가 상당수 발견됨
 -  예를 들면 해당 게시물을 올린 유튜버를 향한 댓글, 블로거와 대화 내용 등이 존재 
 
-![image](https://user-images.githubusercontent.com/60679596/139695908-0751db33-255c-46d1-aa23-df3e4f38d1bd.png)
-![image](https://user-images.githubusercontent.com/60679596/139695918-0569dae6-5c94-4a5a-b185-9d4e1932b2ff.png)
-![image](https://user-images.githubusercontent.com/60679596/139695926-13ae2a67-e57f-4406-ba4c-39c3bbfbb8be.png)
+   ![image](https://user-images.githubusercontent.com/60679596/139695908-0751db33-255c-46d1-aa23-df3e4f38d1bd.png)
+   ![image](https://user-images.githubusercontent.com/60679596/139695918-0569dae6-5c94-4a5a-b185-9d4e1932b2ff.png)
+   ![image](https://user-images.githubusercontent.com/60679596/139695926-13ae2a67-e57f-4406-ba4c-39c3bbfbb8be.png)
 
 - 이러한 이유로 수집한 댓글 데이터 중 화장품과 관련 없는 댓글인 스팸성 데이터를 검출해내고자 한다 
 
-####
+<br/>
+<br/
 
 ### Dataset
 - 화장품과 관련 있는 데이터는 1, 화장품과 관련 없는 데이터는 -1  레이블 지정
@@ -23,7 +24,8 @@
 
 <레이블링 결과 예시>
 
-
+<br/>
+<br/>
 
 ### Modeling
 - Oneclass SVM
@@ -34,6 +36,9 @@
 
 
 그림 출처 : https://www.researchgate.net/figure/One-class-SVM-boundary-and-outlier-detection_fig5_281455041
+
+<br/>
+<br/>
 
 ### 실험 결과
 - nu값에 따라 성능 변화가 큰 것을 확인
