@@ -20,9 +20,9 @@
 - 학습 데이터로는 레이블이 1인 데이터만을 이용 (비율 : 글로우픽 데이터 20000 + 타 플랫폼 label 1인 데이터 3000)
 
 
-![image](https://user-images.githubusercontent.com/60679596/139696345-da2ce5c0-5737-4305-935a-4789a4063f8b.png)
+   ![image](https://user-images.githubusercontent.com/60679596/139696345-da2ce5c0-5737-4305-935a-4789a4063f8b.png)
 
-<레이블링 결과 예시>
+    <레이블링 결과>
 
 <br/>
 <br/>
