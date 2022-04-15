@@ -1,5 +1,5 @@
 
-## Filtering noise data in SNS Using one-class SVM
+## Filtering noise in SNS data Using one-class SVM
 
 
 -  글로우픽의 경우 화장품 리뷰를 크롤링한 것이므로 모두 화장품과 관련된 댓글이지만, 유튜브, 네이브 블로그, 인스타그램 등 SNS 데이터의 경우 noise가 상당수 발견됨
