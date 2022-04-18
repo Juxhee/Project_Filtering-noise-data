@@ -28,8 +28,18 @@
 <br/>
 
 ### Modeling
-- Oneclass SVM
+- Oneclass SVM (https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html)
 - One Class SVM이란 주어진 데이터를 잘 설명할 수 있는 최적의 support vector를 구하고 이 영역 밖의 데이터들은 outlier로 간주하는 방식
+
+
+```python
+from sklearn.svm import OneClassSVM
+
+X = [[0], [0.44], [0.45], [0.46], [1]]
+clf = OneClassSVM(gamma='auto').fit(X)
+clf.predict(X)
+
+```
 - 파라미터는 grid search 활용해서 설정
 
 ![image](https://user-images.githubusercontent.com/60679596/146883204-31a67838-1424-4599-b852-064ac088a1db.png)
